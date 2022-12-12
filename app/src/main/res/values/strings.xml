@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SukSukEnglish</string>
+    <string name="screen_menu">Menu</string>
+    <string name="screen_blinker">Blinker</string>
+
+    <string name="title_ch01">I\'m from Mexico.</string>
+    <string name="eiYBM_5_1_01">world</string>
+    <string name="eiYBM_5_1_02">from</string>
+    <string name="mYBM_5_1_01">세계</string>
+    <string name="mYBM_5_1_02">~로부터</string>
+
+
+    <string name="title_ch02">What are these?</string>
+
+</resources>
