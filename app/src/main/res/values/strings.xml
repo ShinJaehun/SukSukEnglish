@@ -8,7 +8,10 @@
     <string name="eiYBM_5_1_02">from</string>
     <string name="mYBM_5_1_01">세계</string>
     <string name="mYBM_5_1_02">~로부터</string>
-
+    <string name="eiYBM_5_1_03">where</string>
+    <string name="mYBM_5_1_03">어디/어디에</string>
+    <string name="eiYBM_5_1_04">friend</string>
+    <string name="mYBM_5_1_04">친구</string>
 
     <string name="title_ch02">What are these?</string>
 

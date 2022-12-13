@@ -6,6 +6,18 @@ import com.example.suksukenglish.model.EnglishItem
 
 object SSEDataProvider {
 
+//    fun getCategoryData(currentCategoryItem: CategoryItemContent): List<JejuItemContent> {
+//        return getJejuData().filter {
+//            it.categoryResourceId == currentCategoryItem.categoryResourceId
+//        }
+//    }
+
+    fun getEnglisItem(id: Int): EnglishItem? {
+        return getSSEData().find {
+            it.id == id
+        }
+    }
+
     fun getChapterData(): List<Chapter> {
         return listOf(
             Chapter(
@@ -32,7 +44,22 @@ object SSEDataProvider {
                 chapter = 1,
                 eiResourceId = R.string.eiYBM_5_1_02,
                 mResourceId = R.string.mYBM_5_1_02
+            ),
+            EnglishItem(
+                id = 3,
+                chapter = 1,
+                eiResourceId = R.string.eiYBM_5_1_03,
+                mResourceId = R.string.mYBM_5_1_03
+            ),
+            EnglishItem(
+                id = 4,
+                chapter = 1,
+                eiResourceId = R.string.eiYBM_5_1_04,
+                mResourceId = R.string.mYBM_5_1_04
             )
+
+
+
         )
     }
 

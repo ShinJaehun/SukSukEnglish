@@ -75,12 +75,14 @@ fun SSEApp(
                     )
                 }
                 composable(route = SSEScreen.Blinker.name) {
-//                    BlinkerScreen(
-//                        currentEnglishItem = uiState.currentEnglishItem,
-//                        onBackPressed = {
-//                            navController.navigate(SSEScreen.Menu.name)
-//                        }
-//                    )
+                    BlinkerScreen(
+                        viewModel = viewModel,
+                        navController = navController,
+                        currentEnglishItem = uiState.currentEnglishItem,
+                        onBackPressed = {
+                            navController.navigate(SSEScreen.Menu.name)
+                        }
+                    )
                 }
             }
         } else {
